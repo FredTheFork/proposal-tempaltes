@@ -1,132 +1,131 @@
     /* ═══════════════════════════════════════════════════════════════════════════
        WESTMINSTER — British Government/Corporate Standard
-       Inspired by formal UK construction correspondence
+       Compliant with UK business letter format and window envelope standards
        ═══════════════════════════════════════════════════════════════════════════ */
     'westminster' => [
         'name' => 'Westminster Formal',
         'html' => '
-            <div style="font-family: \'Times New Roman\', Times, serif; font-size: 11pt; line-height: 1.65; color: #1a1a1a; padding: 0; max-width: 100%;">
-                
+            <div style="font-family: \'Times New Roman\', Times, serif; font-size: 11pt; line-height: 1.5; color: #1a1a1a; padding: 0; max-width: 100%;">
+
                 <!-- Letterhead -->
-                <table width="100%" cellpadding="0" cellspacing="0" style="margin-bottom: 28px;">
+                <table width="100%" cellpadding="0" cellspacing="0" style="margin-bottom: 20px;">
                     <tr>
-                        <td style="width: 25%; vertical-align: top; padding-right: 20px;">
-                            <div style="height: 70px;">[logo]</div>
+                        <td style="width: 35%; vertical-align: top;">
+                            <div style="height: 80px;">[logo]</div>
                         </td>
-                        <td style="width: 75%; text-align: right; vertical-align: top;">
-                            <div style="font-size: 16pt; font-weight: bold; letter-spacing: 0.5px; color: #1a1a1a; margin-bottom: 6px;">[company_name]</div>
-                            <div style="font-size: 9.5pt; line-height: 1.5; color: #4a4a4a;">
+                        <td style="width: 65%; text-align: right; vertical-align: top;">
+                            <div style="font-size: 14pt; font-weight: bold; color: #1a1a1a; margin-bottom: 4px;">[company_name]</div>
+                            <div style="font-size: 9pt; line-height: 1.4; color: #4a4a4a;">
                                 [company_address]<br>
-                                Tel: [phone]<br>
                                 [email] | [website]
                             </div>
                         </td>
                     </tr>
                 </table>
-                
-                <div style="border-top: 2px solid #1a1a1a; margin-bottom: 24px;"></div>
-                
-                <!-- Reference Block -->
-                <table width="100%" style="margin-bottom: 20px; font-size: 10pt;">
+
+                <div style="border-top: 1px solid #000; margin-bottom: 18px;"></div>
+
+                <!-- Reference & Recipient Block -->
+                <table width="100%" cellpadding="0" cellspacing="0" style="margin-bottom: 24px; font-size: 10pt;">
                     <tr>
-                        <td style="width: 50%;">
-                            <strong>Our Ref:</strong> PROP/[date]<br>
-                            <strong>Date:</strong> [date]
+                        <td style="width: 50%; vertical-align: top;">
+                            <div style="margin-bottom: 4px;"><strong>Our Ref:</strong> PROP/[date]</div>
+                            <div><strong>Date:</strong> [date]</div>
                         </td>
-                        <td style="width: 50%; text-align: right;">
-                            <strong>Valid Until:</strong> [valid_until]
+                        <td style="width: 50%; vertical-align: top; text-align: left; padding-left: 20px;">
+                            <div style="font-size: 10pt; line-height: 1.4;">
+                                <strong>For the attention of:</strong><br>
+                                The Property Owner<br>
+                                [address]
+                            </div>
+                            <div style="margin-top: 12px; font-size: 9pt;">
+                                <strong>Valid Until:</strong> [valid_until]
+                            </div>
                         </td>
                     </tr>
                 </table>
-                
-                <!-- Recipient -->
-                <div style="margin-bottom: 24px; font-size: 10.5pt;">
-                    <strong>For the attention of:</strong><br>
-                    The Property Owner<br>
-                    [address]
-                </div>
-                
+
                 <!-- Subject Line -->
-                <div style="background: #f5f5f5; padding: 12px 16px; border-left: 4px solid #1a1a1a; margin-bottom: 24px;">
-                    <strong style="font-size: 11pt;">RE: [re_line]</strong>
+                <div style="background: #f5f5f5; padding: 10px 14px; border-left: 3px solid #1a1a1a; margin-bottom: 20px;">
+                    <strong>RE: [re_line]</strong>
                 </div>
-                
+
                 <!-- Salutation -->
-                <p style="margin-bottom: 16px;">Dear Sir or Madam,</p>
-                
+                <p style="margin: 0 0 14px 0;">Dear Sir or Madam,</p>
+
                 <!-- Opening -->
-                <p style="margin-bottom: 16px; text-align: justify;">
+                <p style="margin: 0 0 14px 0; text-align: justify;">
                     Following your recent planning approval, we write to present our formal proposal for the construction works at the above-referenced property. We trust this quotation meets your requirements and demonstrates our commitment to delivering projects of the highest standard.
                 </p>
-                
+
                 <!-- Scope Section -->
-                <div style="margin: 24px 0;">
-                    <div style="font-size: 11pt; font-weight: bold; border-bottom: 1px solid #1a1a1a; padding-bottom: 4px; margin-bottom: 12px;">
+                <div style="margin: 20px 0 16px 0;">
+                    <div style="font-weight: bold; border-bottom: 1px solid #1a1a1a; padding-bottom: 3px; margin-bottom: 10px;">
                         SCOPE OF WORKS
                     </div>
-                    <p style="text-align: justify; padding-left: 0;">[description]</p>
+                    <div style="text-align: justify;">[description]</div>
                 </div>
-                
+
                 <!-- Contract Sum -->
-                <div style="background: #1a1a1a; color: #ffffff; padding: 20px 24px; margin: 24px 0; text-align: center;">
-                    <div style="font-size: 10pt; letter-spacing: 1px; margin-bottom: 8px;">CONTRACT SUM (EXCLUSIVE OF VAT)</div>
-                    <div style="font-size: 26pt; font-weight: bold; letter-spacing: 1px;">£[amount]</div>
+                <div style="background: #1a1a1a; color: #ffffff; padding: 18px 20px; margin: 20px 0; text-align: center;">
+                    <div style="font-size: 9pt; letter-spacing: 0.5px; margin-bottom: 6px;">CONTRACT SUM (EXCLUSIVE OF VAT)</div>
+                    <div style="font-size: 24pt; font-weight: bold;">£[amount]</div>
                 </div>
-                
+
                 <!-- Additional Notes -->
-                <div style="margin: 20px 0; padding: 14px 18px; background: #fafafa; border: 1px solid #e0e0e0;">
-                    <strong style="font-size: 10pt;">Additional Notes:</strong><br>
-                    <span style="font-size: 10pt;">[notes]</span>
+                <div style="margin: 16px 0; padding: 12px; background: #fafafa; border: 1px solid #d0d0d0; font-size: 10pt;">
+                    <strong>Additional Notes:</strong><br>
+                    [notes]
                 </div>
-                
+
                 <!-- Warranty -->
-                <div style="margin: 20px 0;">
-                    <div style="font-size: 10.5pt; font-weight: bold; margin-bottom: 8px;">WARRANTY PROVISION</div>
-                    <p style="font-size: 10pt;">[warranty]</p>
+                <div style="margin: 16px 0; font-size: 10pt;">
+                    <div style="font-weight: bold; margin-bottom: 6px;">WARRANTY PROVISION</div>
+                    <div>[warranty]</div>
                 </div>
-                
+
                 <!-- Terms -->
-                <div style="margin: 20px 0;">
-                    <div style="font-size: 10.5pt; font-weight: bold; margin-bottom: 8px;">TERMS & CONDITIONS</div>
-                    <div style="font-size: 9.5pt; line-height: 1.55; padding: 12px; background: #fafafa; border: 1px solid #e5e5e5;">
+                <div style="margin: 16px 0; font-size: 10pt;">
+                    <div style="font-weight: bold; margin-bottom: 6px;">TERMS & CONDITIONS</div>
+                    <div style="font-size: 9.5pt; line-height: 1.4; padding: 10px; background: #fafafa; border: 1px solid #d0d0d0;">
                         [terms]
                     </div>
                 </div>
-                
+
                 <!-- Closing -->
-                <p style="margin: 24px 0 16px; text-align: justify;">
+                <p style="margin: 20px 0 14px 0; text-align: justify;">
                     We should be pleased to discuss any aspect of this proposal at your convenience. Should you wish to proceed, kindly sign and return the enclosed acceptance form.
                 </p>
-                
-                <p style="margin-bottom: 8px;">Yours faithfully,</p>
-                
+
+                <p style="margin: 0 0 6px 0;">Yours faithfully,</p>
+
                 <!-- Signature Block -->
-                <div style="margin: 30px 0 20px;">
+                <div style="margin: 24px 0 16px 0;">
                     [signature]
-                    <div style="margin-top: 8px; font-weight: bold;">[company_name]</div>
-                    <div style="font-size: 9.5pt; color: #666;">Authorised Representative</div>
+                    <div style="margin-top: 6px; font-weight: bold;">[company_name]</div>
+                    <div style="font-size: 9pt; color: #666;">Authorised Representative</div>
                 </div>
-                
+
                 <!-- Acceptance Section -->
-                <div style="border-top: 2px solid #1a1a1a; margin-top: 40px; padding-top: 20px;">
-                    <div style="font-size: 11pt; font-weight: bold; margin-bottom: 16px;">ACCEPTANCE OF PROPOSAL</div>
-                    <p style="font-size: 10pt; margin-bottom: 20px;">I/We hereby accept this proposal and authorise [company_name] to proceed with the works as described above.</p>
-                    <table width="100%" style="font-size: 10pt;">
+                <div style="border-top: 1px solid #1a1a1a; margin-top: 32px; padding-top: 16px;">
+                    <div style="font-weight: bold; margin-bottom: 12px;">ACCEPTANCE OF PROPOSAL</div>
+                    <p style="font-size: 10pt; margin: 0 0 16px 0;">I/We hereby accept this proposal and authorise [company_name] to proceed with the works as described above.</p>
+                    <table width="100%" cellpadding="0" cellspacing="0" style="font-size: 10pt;">
                         <tr>
                             <td style="width: 50%; padding-right: 20px;">
-                                <div style="border-bottom: 1px solid #1a1a1a; height: 40px;"></div>
+                                <div style="border-bottom: 1px solid #1a1a1a; height: 36px;"></div>
                                 <div style="margin-top: 4px;">Signature</div>
                             </td>
                             <td style="width: 50%;">
-                                <div style="border-bottom: 1px solid #1a1a1a; height: 40px;"></div>
+                                <div style="border-bottom: 1px solid #1a1a1a; height: 36px;"></div>
                                 <div style="margin-top: 4px;">Date</div>
                             </td>
                         </tr>
                     </table>
                 </div>
-                
+
                 <!-- Footer -->
-                <div style="margin-top: 36px; padding-top: 12px; border-top: 1px solid #cccccc; font-size: 8.5pt; color: #666; text-align: center;">
+                <div style="margin-top: 32px; padding-top: 10px; border-top: 1px solid #cccccc; font-size: 8pt; color: #666; text-align: center;">
                     [company_name] | [phone] | [email] | [website]
                 </div>
             </div>
